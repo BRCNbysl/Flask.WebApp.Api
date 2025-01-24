@@ -1,0 +1,853 @@
+2024-05-20 10:00:16,177 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-20 10:00:16,178 [33mPress CTRL+C to quit[0m
+2024-05-20 10:00:16,199  * Restarting with watchdog (windowsapi)
+2024-05-20 10:01:51,564  * Debugger is active!
+2024-05-20 10:01:51,574  * Debugger PIN: 137-084-495
+2024-05-20 10:09:20,984 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-05-20 10:09:20,993 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-20 10:09:20,994 127.0.0.1 - - [20/May/2024 10:09:20] "POST /predict HTTP/1.1" 200 -
+2024-05-20 10:09:41,601 127.0.0.1 - - [20/May/2024 10:09:41] "OPTIONS /feedback HTTP/1.1" 200 -
+2024-05-20 10:09:41,917 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.1', 'DolulukOrani': '0.45'}
+2024-05-20 10:09:42,138 Model Güncellendi
+2024-05-20 10:09:42,141 Feedback response: {'success': True, 'updated_prediction': 0.445192608134085}
+2024-05-20 10:09:42,142 127.0.0.1 - - [20/May/2024 10:09:42] "POST /feedback HTTP/1.1" 200 -
+2024-05-21 10:24:08,422 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-21 10:24:08,438 [33mPress CTRL+C to quit[0m
+2024-05-21 10:24:08,469  * Restarting with stat
+2024-05-21 10:24:57,954  * Debugger is active!
+2024-05-21 10:24:57,969  * Debugger PIN: 130-077-661
+2024-05-21 10:28:58,101 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-05-21 10:28:58,151 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-21 10:28:58,152 127.0.0.1 - - [21/May/2024 10:28:58] "POST /predict HTTP/1.1" 200 -
+2024-05-21 10:29:06,200 127.0.0.1 - - [21/May/2024 10:29:06] "OPTIONS /feedback HTTP/1.1" 200 -
+2024-05-21 10:29:06,511 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.1', 'DolulukOrani': '0,40'}
+2024-05-21 10:29:06,511 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-05-21 10:29:06,511 127.0.0.1 - - [21/May/2024 10:29:06] "POST /feedback HTTP/1.1" 200 -
+2024-05-21 10:29:26,529 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-05-21 10:29:26,530 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-21 10:29:26,531 127.0.0.1 - - [21/May/2024 10:29:26] "POST /predict HTTP/1.1" 200 -
+2024-05-21 10:29:40,043 127.0.0.1 - - [21/May/2024 10:29:40] "OPTIONS /feedback HTTP/1.1" 200 -
+2024-05-21 10:29:40,293 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.1', 'DolulukOrani': '0.45'}
+2024-05-21 10:29:40,555 Model Güncellendi
+2024-05-21 10:29:40,558 Feedback response: {'success': True, 'updated_prediction': 0.4449180074788841}
+2024-05-21 10:29:40,558 127.0.0.1 - - [21/May/2024 10:29:40] "POST /feedback HTTP/1.1" 200 -
+2024-05-21 10:29:43,696 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-05-21 10:29:43,698 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-05-21 10:29:43,698 127.0.0.1 - - [21/May/2024 10:29:43] "POST /predict HTTP/1.1" 200 -
+2024-05-21 10:29:49,119 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-05-21 10:29:49,121 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-05-21 10:29:49,121 127.0.0.1 - - [21/May/2024 10:29:49] "POST /predict HTTP/1.1" 200 -
+2024-05-21 11:27:01,610 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-21 11:27:01,625 [33mPress CTRL+C to quit[0m
+2024-05-21 11:27:01,657  * Restarting with stat
+2024-05-21 11:27:54,032  * Debugger is active!
+2024-05-21 11:27:54,048  * Debugger PIN: 130-077-661
+2024-05-21 12:03:50,273 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-21 12:03:50,288 [33mPress CTRL+C to quit[0m
+2024-05-21 12:03:50,304  * Restarting with stat
+2024-05-21 12:04:37,648  * Debugger is active!
+2024-05-21 12:04:37,664  * Debugger PIN: 130-077-661
+2024-05-21 12:06:15,496 127.0.0.1 - - [21/May/2024 12:06:15] "[33mGET / HTTP/1.1[0m" 404 -
+2024-05-21 12:06:15,557 127.0.0.1 - - [21/May/2024 12:06:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-21 15:50:18,216 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-21 15:50:18,216 [33mPress CTRL+C to quit[0m
+2024-05-21 15:50:18,232  * Restarting with stat
+2024-05-21 15:51:07,220  * Debugger is active!
+2024-05-21 15:51:07,235  * Debugger PIN: 130-077-661
+2024-05-21 15:53:40,883 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '4562'), ('Katsayý', '1.1')])
+2024-05-21 15:53:40,941 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-21 15:53:40,942 127.0.0.1 - - [21/May/2024 15:53:40] "POST /predict HTTP/1.1" 200 -
+2024-05-21 15:53:49,396 127.0.0.1 - - [21/May/2024 15:53:49] "OPTIONS /feedback HTTP/1.1" 200 -
+2024-05-21 15:53:49,702 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '456', 'Yükseklik': '4562', 'Katsayý': '1.1', 'DolulukOrani': '0.40'}
+2024-05-21 15:53:49,950 Model Güncellendi
+2024-05-21 15:53:49,953 Feedback response: {'success': True, 'updated_prediction': 0.3954792915188079}
+2024-05-21 15:53:49,953 127.0.0.1 - - [21/May/2024 15:53:49] "POST /feedback HTTP/1.1" 200 -
+2024-05-22 12:12:04,416 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 12:12:04,416 [33mPress CTRL+C to quit[0m
+2024-05-22 12:12:04,416  * Restarting with stat
+2024-05-22 12:12:53,119  * Debugger is active!
+2024-05-22 12:12:53,119  * Debugger PIN: 130-077-661
+2024-05-22 14:41:14,899 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 14:41:14,899 [33mPress CTRL+C to quit[0m
+2024-05-22 14:41:14,899  * Restarting with stat
+2024-05-22 14:42:01,290  * Debugger is active!
+2024-05-22 14:42:01,306  * Debugger PIN: 130-077-661
+2024-05-22 15:21:24,546 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 15:21:24,546 [33mPress CTRL+C to quit[0m
+2024-05-22 15:21:24,546  * Restarting with stat
+2024-05-22 15:21:59,765  * Debugger is active!
+2024-05-22 15:21:59,765  * Debugger PIN: 130-077-661
+2024-05-28 11:21:59,017 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-28 11:21:59,032 [33mPress CTRL+C to quit[0m
+2024-05-28 11:21:59,048  * Restarting with stat
+2024-05-28 11:22:46,517  * Debugger is active!
+2024-05-28 11:22:46,517  * Debugger PIN: 130-077-661
+2024-05-28 11:30:03,270 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.2.155:5001
+2024-05-28 11:30:03,270 [33mPress CTRL+C to quit[0m
+2024-05-28 11:30:03,270  * Restarting with stat
+2024-05-28 11:30:49,614  * Debugger is active!
+2024-05-28 11:30:49,614  * Debugger PIN: 130-077-661
+2024-05-28 11:31:52,973 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-05-28 11:31:53,034 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-28 11:31:53,034 192.168.2.155 - - [28/May/2024 11:31:53] "POST /predict HTTP/1.1" 200 -
+2024-05-28 11:31:59,313 192.168.2.155 - - [28/May/2024 11:31:59] "OPTIONS /feedback HTTP/1.1" 200 -
+2024-05-28 11:31:59,346 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.1', 'DolulukOrani': '0.54'}
+2024-05-28 11:31:59,673 Model Güncellendi
+2024-05-28 11:31:59,675 Feedback response: {'success': True, 'updated_prediction': 0.5344643649797503}
+2024-05-28 11:31:59,676 192.168.2.155 - - [28/May/2024 11:31:59] "POST /feedback HTTP/1.1" 200 -
+2024-05-28 11:46:41,891 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-05-28 11:46:42,227 Prediction response: {'success': True, 'prediction': '0.53'}
+2024-05-28 11:46:49,670 Error in feedback endpoint: {'success': False, 'error': "Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl."}
+2024-05-28 11:49:19,888 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '5000'), ('Boy', '2000'), ('Yükseklik', '1200'), ('Katsayý', '1.35')])
+2024-05-28 11:49:19,888 Prediction response: {'success': True, 'prediction': '0.47'}
+2024-05-28 11:49:31,060 Error in feedback endpoint: {'success': False, 'error': "Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl."}
+2024-05-28 16:23:27,780 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.35')])
+2024-05-28 16:23:27,983 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-05-28 16:23:30,639 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.35')])
+2024-05-28 16:23:30,639 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-05-28 16:23:48,686 Error in feedback endpoint: {'success': False, 'error': "Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl."}
+2024-05-28 16:24:09,421 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.35')])
+2024-05-28 16:24:09,436 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-05-28 16:24:17,187 Error in feedback endpoint: {'success': False, 'error': "Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl."}
+2024-05-28 16:24:32,218 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.35')])
+2024-05-28 16:24:32,218 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-05-28 16:24:38,468 Error in feedback endpoint: {'success': False, 'error': "Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl."}
+2024-05-28 16:28:47,602 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.35')])
+2024-05-28 16:28:48,805 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-05-28 16:29:52,259 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.35', 'DolulukOrani': '0.45'}
+2024-05-28 16:29:52,556 Model Güncellendi
+2024-05-28 16:29:52,556 Feedback response: {'success': True, 'updated_prediction': 0.4484489891461619}
+2024-05-28 16:30:40,540 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.35')])
+2024-05-28 16:30:40,540 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-05-30 14:57:25,671 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-05-30 14:57:25,702 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-05-30 14:57:37,906 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-05-30 14:57:37,921 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-05-31 10:12:06,188 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '5000'), ('Boy', '2000'), ('Yükseklik', '1200'), ('Katsayý', '1.1')])
+2024-05-31 10:12:06,204 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-31 10:12:50,425 Received feedback request data: {'KalýpAdý': 0, 'En': '5000', 'Boy': '2000', 'Yükseklik': '1200', 'Katsayý': '1.1', 'DolulukOrani': '0,38'}
+2024-05-31 10:12:50,425 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,38'"}
+2024-05-31 10:30:41,929 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '5000'), ('Boy', '2000'), ('Yükseklik', '1200'), ('Katsayý', '1.35')])
+2024-05-31 10:30:41,947 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-05-31 10:31:18,210 Received feedback request data: {'KalýpAdý': 0, 'En': '5000', 'Boy': '2000', 'Yükseklik': '1200', 'Katsayý': '1.35', 'DolulukOrani': '0,50'}
+2024-05-31 10:31:18,211 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-05-31 10:52:16,029 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-05-31 10:52:16,050 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-05-31 10:52:53,696 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.1', 'DolulukOrani': '0.56'}
+2024-05-31 10:52:53,923 Model Güncellendi
+2024-05-31 10:52:53,925 Feedback response: {'success': True, 'updated_prediction': 0.55410380009938}
+2024-06-03 16:47:11,922 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-03 16:47:12,047 Prediction response: {'success': True, 'prediction': '0.41'}
+2024-06-03 16:47:48,876 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-06-03 16:47:48,876 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-03 16:47:48,891 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-03 16:47:48,891 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-06-03 16:47:48,907 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-06-03 16:47:48,907 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-03 16:47:48,923 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-03 16:47:48,923 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-06-03 16:49:47,970 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '2')])
+2024-06-03 16:49:47,986 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-06-03 17:14:54,241 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-03 17:14:54,241 Prediction response: {'success': True, 'prediction': '0.41'}
+2024-06-03 17:15:30,976 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.1', 'DolulukOrani': '0.45'}
+2024-06-03 17:15:31,351 Model Güncellendi
+2024-06-03 17:15:31,351 Feedback response: {'success': True, 'updated_prediction': 0.4449180074788841}
+2024-06-04 10:00:57,598 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '5000'), ('Boy', '2000'), ('Yükseklik', '1200'), ('Katsayý', '1.1')])
+2024-06-04 10:00:57,598 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-06-04 10:01:37,021 Received feedback request data: {'KalýpAdý': 0, 'En': '5000', 'Boy': '2000', 'Yükseklik': '1200', 'Katsayý': '1.1', 'DolulukOrani': '0,50'}
+2024-06-04 10:01:37,021 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-06-04 10:02:15,880 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1300'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-06-04 10:02:15,880 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-04 10:02:15,896 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '5000'), ('Boy', '2000'), ('Yükseklik', '1200'), ('Katsayý', '1.5')])
+2024-06-04 10:02:15,896 Prediction response: {'success': True, 'prediction': '0.47'}
+2024-06-04 10:02:30,193 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1300'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-06-04 10:02:30,208 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-04 10:02:30,208 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '5000'), ('Boy', '2000'), ('Yükseklik', '1200'), ('Katsayý', '1.5')])
+2024-06-04 10:02:30,208 Prediction response: {'success': True, 'prediction': '0.47'}
+2024-06-04 10:49:40,776 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-04 10:49:40,792 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-06-04 10:50:22,808 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.1', 'DolulukOrani': '0.40'}
+2024-06-04 10:50:23,042 Model Güncellendi
+2024-06-04 10:50:23,042 Feedback response: {'success': True, 'updated_prediction': 0.3971282669213692}
+2024-06-04 11:11:02,582 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-06-04 11:11:02,598 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-04 11:11:02,629 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-04 11:11:02,629 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-06-04 11:11:02,645 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-06-04 11:11:02,645 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-04 11:11:02,660 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-04 11:11:02,660 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-06-04 11:12:55,302 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.5')])
+2024-06-04 11:12:55,302 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-04 11:12:55,318 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-06-04 11:12:55,318 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-06-04 11:35:18,624 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-06-04 11:35:18,624 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-06-04 11:36:10,093 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.1', 'DolulukOrani': '0.40'}
+2024-06-04 11:36:10,359 Model Güncellendi
+2024-06-04 11:36:10,359 Feedback response: {'success': True, 'updated_prediction': 0.39503431144602663}
+2024-06-04 11:36:11,265 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.5')])
+2024-06-04 11:36:11,265 Prediction response: {'success': True, 'prediction': '0.47'}
+2024-06-04 11:36:11,281 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-06-04 11:36:11,281 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-06-04 11:36:23,984 Received feedback request data: {'KalýpAdý': 1, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.5', 'DolulukOrani': '0.45'}
+2024-06-04 11:36:24,234 Model Güncellendi
+2024-06-04 11:36:24,234 Feedback response: {'success': True, 'updated_prediction': 0.4531923113769068}
+2024-06-04 11:36:55,703 Received feedback request data: {'KalýpAdý': 1, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.1', 'DolulukOrani': '0.40'}
+2024-06-04 11:36:55,937 Model Güncellendi
+2024-06-04 11:36:55,937 Feedback response: {'success': True, 'updated_prediction': 0.39515265188777166}
+2024-06-24 11:07:27,655 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-06-24 11:07:27,890 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-06-24 11:07:27,905 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '1234'), ('Yükseklik', '4567'), ('Katsayý', '1.5')])
+2024-06-24 11:07:27,905 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-06-24 11:08:30,875 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-06-24 11:08:30,875 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-06-24 11:08:30,890 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '1234'), ('Yükseklik', '4567'), ('Katsayý', '1.5')])
+2024-06-24 11:08:30,890 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-06-24 11:09:59,594 Received feedback request data: {'KalýpAdý': 1, 'En': '1234', 'Boy': '1234', 'Yükseklik': '4567', 'Katsayý': '1.5', 'DolulukOrani': '0,40'}
+2024-06-24 11:09:59,594 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-06-24 11:10:01,407 Received feedback request data: {'KalýpAdý': 1, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.1', 'DolulukOrani': '0,34'}
+2024-06-24 11:10:01,407 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,34'"}
+2024-06-24 11:11:33,829 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-06-24 11:11:33,845 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-06-24 11:11:33,845 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '1234'), ('Yükseklik', '4567'), ('Katsayý', '1.5')])
+2024-06-24 11:11:33,845 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-06-24 11:11:48,954 Received feedback request data: {'KalýpAdý': 1, 'En': '1234', 'Boy': '456', 'Yükseklik': '1234', 'Katsayý': '1.1', 'DolulukOrani': '0.30'}
+2024-06-24 11:11:48,954 Received feedback request data: {'KalýpAdý': 1, 'En': '1234', 'Boy': '1234', 'Yükseklik': '4567', 'Katsayý': '1.5', 'DolulukOrani': '0.40'}
+2024-06-24 11:11:49,345 Model Güncellendi
+2024-06-24 11:11:49,345 Feedback response: {'success': True, 'updated_prediction': 0.29815464567641814}
+2024-06-24 11:11:49,345 Model Güncellendi
+2024-06-24 11:11:49,345 Feedback response: {'success': True, 'updated_prediction': 0.40415958103922134}
+2024-06-24 11:12:40,158 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1234'), ('Boy', '456'), ('Yükseklik', '1234'), ('Katsayý', '1.1')])
+2024-06-24 11:12:40,174 Prediction response: {'success': True, 'prediction': '0.34'}
+2024-06-24 11:12:40,189 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '4561'), ('Boy', '456'), ('Yükseklik', '789'), ('Katsayý', '1.5')])
+2024-06-24 11:12:40,189 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 11:13:49,127 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 11:13:49,127 Prediction response: {'success': True, 'prediction': '0.41'}
+2024-06-24 11:15:02,487 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.62')])
+2024-06-24 11:15:02,487 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 11:53:18,818 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 11:53:18,849 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 11:54:18,849 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 11:54:18,849 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 11:58:48,992 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 11:58:48,992 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 11:59:23,024 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 11:59:23,024 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 12:10:25,185 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 12:10:25,185 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 12:10:43,888 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 12:10:43,888 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 12:11:01,138 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 12:11:01,138 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 12:11:01,154 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3500'), ('Boy', '1200'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-06-24 12:11:01,154 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 12:11:53,983 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 12:11:53,983 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 12:19:08,252 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 12:19:08,267 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 12:21:03,112 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 12:21:03,112 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 12:21:44,409 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 12:21:44,409 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 12:28:59,991 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 12:29:00,006 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 12:29:05,162 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 12:29:05,162 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 12:30:34,023 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 12:30:34,023 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:16:00,650 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 14:16:00,650 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:16:47,150 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:16:47,166 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:17:56,948 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:17:56,948 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:19:39,121 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:19:39,136 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:20:19,433 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-06-24 14:20:19,433 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:22:29,888 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-06-24 14:22:29,888 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:22:57,513 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-06-24 14:22:57,513 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:23:51,654 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 14:23:51,654 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:29:55,641 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 14:29:55,641 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:32:35,314 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:32:35,314 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:34:16,112 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:34:16,112 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:37:56,676 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:37:56,676 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:38:35,942 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:38:35,942 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:38:58,051 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:38:58,051 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:39:03,833 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:39:03,833 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:50:33,463 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:50:33,463 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:51:03,338 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:51:03,338 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-06-24 14:51:53,026 Received feedback request data: {'KalýpAdý': 1, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,51'}
+2024-06-24 14:51:53,026 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,51'"}
+2024-06-24 14:52:12,683 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:52:12,683 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:52:39,152 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:52:39,152 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:52:53,746 Received feedback request data: {'KalýpAdý': 1, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,51'}
+2024-06-24 14:52:53,746 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,51'"}
+2024-06-24 14:53:02,246 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:53:02,246 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:53:16,652 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:53:16,652 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:53:21,230 Received feedback request data: {'KalýpAdý': 1, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,51'}
+2024-06-24 14:53:21,230 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,51'"}
+2024-06-24 14:53:23,808 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:53:23,808 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:53:30,668 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:53:30,683 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:55:43,044 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:55:43,044 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 14:56:27,169 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 14:56:27,169 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-06-24 15:02:08,484 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '700'), ('Katsayý', '2')])
+2024-06-24 15:02:08,531 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 15:02:08,547 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '700'), ('Katsayý', '2')])
+2024-06-24 15:02:08,547 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 15:02:17,250 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 15:02:17,250 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 15:04:32,798 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 15:04:32,813 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 15:05:10,736 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 15:05:10,736 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 15:07:36,456 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 15:07:36,456 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 15:08:45,581 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 15:08:45,581 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 15:18:40,523 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 15:18:40,539 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 16:40:25,702 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 16:40:25,702 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 16:42:06,469 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 16:42:06,469 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 16:42:08,312 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 16:42:08,312 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 16:42:43,016 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 16:42:43,016 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 16:42:43,031 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 16:42:43,031 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 16:43:49,297 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 16:43:49,297 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 16:48:02,487 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 16:48:02,487 Prediction response: {'success': True, 'prediction': '0.43'}
+2024-06-24 16:48:44,487 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 16:48:44,487 Prediction response: {'success': True, 'prediction': '0.43'}
+2024-06-24 16:50:58,879 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-06-24 16:50:58,879 Prediction response: {'success': True, 'prediction': '0.43'}
+2024-06-24 17:09:35,919 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '700'), ('Katsayý', '1.5')])
+2024-06-24 17:09:35,935 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 17:11:55,936 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 17:11:55,936 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 17:12:19,014 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 17:12:19,030 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 17:17:29,016 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1200'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 17:17:29,016 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-24 17:17:55,313 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '700'), ('Katsayý', '2')])
+2024-06-24 17:17:55,313 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 17:18:53,814 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 17:18:53,814 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 17:19:19,408 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-06-24 17:19:19,408 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-06-24 17:21:51,503 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-06-24 17:21:51,503 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-06-27 15:54:48,890 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1500'), ('Boy', '2550'), ('Yükseklik', '900'), ('Katsayý', '1.75')])
+2024-06-27 15:54:49,296 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:24:13,439 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:24:13,845 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:32:53,833 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:32:53,849 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:34:18,131 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:34:18,131 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:45:21,213 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:45:21,213 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:46:43,714 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:46:43,714 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:48:14,652 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:48:14,652 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:48:57,277 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:48:57,277 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:48:57,293 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:48:57,293 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:49:44,075 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:49:44,075 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:49:44,090 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:49:44,090 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:50:37,747 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:50:37,747 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:55:07,811 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:55:07,811 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 11:58:20,609 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 11:58:20,609 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:00:59,204 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:00:59,204 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:03:28,815 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:03:28,815 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:03:41,627 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:03:41,627 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:08:01,785 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:08:01,785 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:08:20,192 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:08:20,192 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:09:57,927 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:09:57,927 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:11:53,771 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3000'), ('Boy', '1100'), ('Yükseklik', '600'), ('Katsayý', '2.4')])
+2024-07-22 12:11:53,771 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:15:40,491 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:15:40,491 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:16:09,304 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.4')])
+2024-07-22 12:16:09,320 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-22 12:17:45,461 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 12:17:45,461 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 12:17:47,649 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 12:17:47,649 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:18:23,212 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:18:23,931 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:18:50,009 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:18:50,009 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:20:57,166 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:20:57,166 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:23:26,324 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:23:26,339 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:27:04,684 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:27:04,684 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:28:12,669 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:28:12,669 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:29:31,529 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:29:31,529 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:29:56,998 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '4000'), ('Boy', '1100'), ('Yükseklik', '780'), ('Katsayý', '1.1')])
+2024-07-22 15:29:56,998 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:30:33,889 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:30:33,889 Prediction response: {'success': True, 'prediction': '0.38'}
+2024-07-22 15:34:02,236 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '3')])
+2024-07-22 15:34:02,236 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-22 15:34:29,002 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '3')])
+2024-07-22 15:34:29,002 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-22 15:35:02,111 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '3')])
+2024-07-22 15:35:02,111 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-22 15:35:30,471 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '3')])
+2024-07-22 15:35:30,471 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-22 15:35:34,127 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '3')])
+2024-07-22 15:35:34,127 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-22 15:35:59,627 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2.64')])
+2024-07-22 15:35:59,627 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-22 15:36:57,964 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:36:57,964 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:36:57,980 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:36:57,980 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:39:42,012 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:39:42,012 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:39:42,028 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:39:42,043 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:41:59,044 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:41:59,044 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:41:59,060 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:41:59,075 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:43:57,732 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:43:57,732 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:43:57,764 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:43:57,764 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:44:58,623 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:44:58,623 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:44:58,655 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:44:58,655 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:45:17,217 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:45:17,217 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:45:17,248 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:45:17,248 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:45:37,233 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-22 15:45:37,233 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-22 15:45:37,264 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:45:37,264 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:49:55,453 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-22 15:49:55,469 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-22 15:49:55,500 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.1')])
+2024-07-22 15:49:55,500 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-07-22 15:51:17,813 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:51:17,813 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:51:21,829 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3000'), ('Boy', '1100'), ('Yükseklik', '600'), ('Katsayý', '1.1')])
+2024-07-22 15:51:21,829 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-07-22 15:53:51,033 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:53:51,033 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 15:53:51,049 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 15:53:51,049 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 15:59:52,879 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 15:59:52,895 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:00:20,598 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:00:20,598 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:00:28,801 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:00:28,801 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:02:01,317 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:02:01,317 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:02:05,317 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:02:05,317 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:03:47,302 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:03:47,302 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:03:47,318 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:03:47,318 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:04:38,021 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:04:38,021 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:08:39,882 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:08:39,882 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:08:39,898 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:08:39,898 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:09:38,648 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:09:38,648 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:09:38,664 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:09:38,664 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:10:32,352 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:10:32,352 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:10:32,367 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:10:32,367 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:11:43,758 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:11:43,758 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:11:43,790 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:11:43,790 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:14:15,713 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:14:15,713 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:14:15,744 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:14:15,744 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:15:22,635 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:15:22,635 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:15:22,650 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:15:22,650 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-22 16:16:15,916 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '1.5')])
+2024-07-22 16:16:15,916 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-22 16:16:15,948 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-22 16:16:15,948 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-23 12:17:22,354 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '740'), ('Katsayý', '1.5')])
+2024-07-23 12:17:22,695 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-23 12:17:22,728 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '600'), ('Yükseklik', '400'), ('Katsayý', '1.1')])
+2024-07-23 12:17:22,730 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-07-23 14:14:41,124 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1100'), ('Boy', '500'), ('Yükseklik', '400'), ('Katsayý', '2')])
+2024-07-23 14:14:41,173 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-07-23 14:14:41,207 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-23 14:14:41,209 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:32:49,909 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:32:50,206 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:32:50,221 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-07-31 11:32:50,237 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-31 11:33:29,581 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:33:29,581 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:33:29,581 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-07-31 11:33:29,597 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-07-31 11:34:19,331 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-31 11:34:19,347 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-31 11:34:19,441 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '2500'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.1')])
+2024-07-31 11:34:19,456 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-07-31 11:34:43,363 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,50'}
+2024-07-31 11:34:43,363 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:34:45,691 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-31 11:34:45,691 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-31 11:34:47,581 Received feedback request data: {'KalýpAdý': 0, 'En': '1200', 'Boy': '1000', 'Yükseklik': '600', 'Katsayý': '1.5', 'DolulukOrani': '0,50'}
+2024-07-31 11:34:47,581 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:34:57,972 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:34:57,972 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:34:57,988 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-31 11:34:57,988 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-31 11:35:13,972 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,50'}
+2024-07-31 11:35:13,972 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:35:13,972 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.1', 'DolulukOrani': '0,50'}
+2024-07-31 11:35:13,972 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:35:29,300 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:35:29,300 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:35:29,316 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-31 11:35:29,316 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-31 11:35:29,316 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:35:29,332 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:35:45,863 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.1', 'DolulukOrani': '0,50'}
+2024-07-31 11:35:45,863 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:35:45,863 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,50'}
+2024-07-31 11:35:45,863 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:35:45,863 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,50'}
+2024-07-31 11:35:45,863 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 11:37:59,426 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.1')])
+2024-07-31 11:37:59,426 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-07-31 11:38:51,958 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:38:51,958 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:03,552 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:39:03,567 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:03,583 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:39:03,583 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:19,833 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:39:19,833 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:19,849 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:39:19,849 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:19,864 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '800'), ('Yükseklik', '400'), ('Katsayý', '1.1')])
+2024-07-31 11:39:19,864 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-07-31 11:39:27,755 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:39:27,755 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:27,770 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 11:39:27,770 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 11:39:27,786 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '800'), ('Yükseklik', '400'), ('Katsayý', '1.1')])
+2024-07-31 11:39:27,786 Prediction response: {'success': True, 'prediction': '0.36'}
+2024-07-31 14:24:25,519 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-07-31 14:24:25,538 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-07-31 14:25:04,504 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.75', 'DolulukOrani': '0,50'}
+2024-07-31 14:25:04,504 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 14:26:53,113 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '600'), ('Katsayý', '1.75')])
+2024-07-31 14:26:53,114 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-07-31 14:27:03,438 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '600'), ('Katsayý', '1.75')])
+2024-07-31 14:27:03,439 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-07-31 14:27:03,456 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '760'), ('Katsayý', '1.35')])
+2024-07-31 14:27:03,457 Prediction response: {'success': True, 'prediction': '0.43'}
+2024-07-31 14:27:16,934 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '760', 'Katsayý': '1.35', 'DolulukOrani': '0,50'}
+2024-07-31 14:27:16,934 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 14:27:44,964 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '6000'), ('Katsayý', '1.75')])
+2024-07-31 14:27:44,966 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-31 14:27:45,072 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '400'), ('Katsayý', '1.35')])
+2024-07-31 14:27:45,074 Prediction response: {'success': True, 'prediction': '0.42'}
+2024-07-31 14:27:49,451 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '600', 'Katsayý': '1.75', 'DolulukOrani': '0,50'}
+2024-07-31 14:27:49,451 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 14:27:56,133 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '6000', 'Katsayý': '1.75', 'DolulukOrani': '0,50'}
+2024-07-31 14:27:56,133 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '400', 'Katsayý': '1.35', 'DolulukOrani': ''}
+2024-07-31 14:27:56,133 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 14:27:56,133 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: ''"}
+2024-07-31 14:28:12,513 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '500'), ('Katsayý', '1.75')])
+2024-07-31 14:28:12,514 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-07-31 14:28:12,533 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '300'), ('Yükseklik', '400'), ('Katsayý', '1.35')])
+2024-07-31 14:28:12,534 Prediction response: {'success': True, 'prediction': '0.41'}
+2024-07-31 14:28:13,945 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '500'), ('Katsayý', '1.75')])
+2024-07-31 14:28:13,946 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-07-31 14:28:13,962 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '300'), ('Yükseklik', '400'), ('Katsayý', '1.35')])
+2024-07-31 14:28:13,963 Prediction response: {'success': True, 'prediction': '0.41'}
+2024-07-31 14:28:25,526 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '500', 'Katsayý': '1.75', 'DolulukOrani': '0,40'}
+2024-07-31 14:28:25,526 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 14:28:25,526 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-07-31 14:28:48,928 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-07-31 14:28:48,929 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-07-31 14:28:48,948 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '2800'), ('Boy', '1000'), ('Yükseklik', '500'), ('Katsayý', '1.35')])
+2024-07-31 14:28:48,949 Prediction response: {'success': True, 'prediction': '0.42'}
+2024-07-31 14:28:58,402 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-07-31 14:28:58,404 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-07-31 14:28:58,420 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '2800'), ('Boy', '1000'), ('Yükseklik', '500'), ('Katsayý', '1.35')])
+2024-07-31 14:28:58,421 Prediction response: {'success': True, 'prediction': '0.42'}
+2024-07-31 14:29:06,493 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.75', 'DolulukOrani': '0,50'}
+2024-07-31 14:29:06,494 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 14:29:06,494 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 16:28:32,076 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 16:28:32,095 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 16:29:11,821 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '760'), ('Katsayý', '2')])
+2024-07-31 16:29:11,837 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 16:29:15,112 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,46'}
+2024-07-31 16:29:15,112 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,46'"}
+2024-07-31 16:29:22,663 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '760', 'Katsayý': '2', 'DolulukOrani': '0,45'}
+2024-07-31 16:29:22,664 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,45'"}
+2024-07-31 16:36:36,248 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 16:36:36,263 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 16:36:57,138 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 16:36:57,154 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 16:37:20,404 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 16:37:20,420 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-07-31 16:37:22,717 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,45'}
+2024-07-31 16:37:22,717 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,45'"}
+2024-07-31 16:37:31,201 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '2')])
+2024-07-31 16:37:31,201 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 16:37:41,560 Received feedback request data: {'KalýpAdý': 0, 'En': '1200', 'Boy': '1000', 'Yükseklik': '600', 'Katsayý': '2', 'DolulukOrani': '0,45'}
+2024-07-31 16:37:41,560 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,45'"}
+2024-07-31 16:37:42,482 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,40'}
+2024-07-31 16:37:42,482 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-07-31 16:38:39,748 Received predict request data: ImmutableMultiDict([('KalýpAdý', '2'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '3')])
+2024-07-31 16:38:39,748 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-07-31 16:38:49,217 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '3', 'DolulukOrani': '0,41'}
+2024-07-31 16:38:49,217 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,41'"}
+2024-07-31 17:01:37,756 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:01:37,756 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:01:54,912 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:01:54,912 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:02:00,318 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:02:00,318 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:02:00,381 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:02:00,381 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:02:14,631 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,40'}
+2024-07-31 17:02:14,631 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-07-31 17:03:10,334 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,40'}
+2024-07-31 17:03:10,334 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-07-31 17:03:12,897 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,50'}
+2024-07-31 17:03:12,897 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-07-31 17:04:36,475 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:04:36,475 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:04:42,663 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,55'}
+2024-07-31 17:04:42,663 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,55'"}
+2024-07-31 17:04:50,772 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:04:50,772 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:04:50,788 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '2')])
+2024-07-31 17:04:50,788 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:05:00,241 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,45'}
+2024-07-31 17:05:00,241 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,45'"}
+2024-07-31 17:05:00,241 Received feedback request data: {'KalýpAdý': 0, 'En': '1200', 'Boy': '1000', 'Yükseklik': '600', 'Katsayý': '2', 'DolulukOrani': '0,46'}
+2024-07-31 17:05:00,241 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,46'"}
+2024-07-31 17:05:47,741 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:05:47,741 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:05:52,413 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,40'}
+2024-07-31 17:05:52,413 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-07-31 17:06:38,757 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '800'), ('Katsayý', '2')])
+2024-07-31 17:06:38,757 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:06:49,945 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '800', 'Katsayý': '2', 'DolulukOrani': '0,40'}
+2024-07-31 17:06:49,945 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-07-31 17:07:51,976 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '800'), ('Katsayý', '2')])
+2024-07-31 17:07:51,976 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:07:51,992 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1300'), ('Yükseklik', '600'), ('Katsayý', '2')])
+2024-07-31 17:07:52,008 Prediction response: {'success': True, 'prediction': '0.51'}
+2024-07-31 17:08:03,851 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '800', 'Katsayý': '2', 'DolulukOrani': '0,45'}
+2024-07-31 17:08:03,851 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,45'"}
+2024-07-31 17:08:03,851 Received feedback request data: {'KalýpAdý': 0, 'En': '1200', 'Boy': '1300', 'Yükseklik': '600', 'Katsayý': '2', 'DolulukOrani': '0,47'}
+2024-07-31 17:08:03,851 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,47'"}
+2024-07-31 17:08:13,320 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-07-31 17:08:13,320 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-07-31 17:36:34,876 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-07-31 17:36:34,892 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-07-31 17:37:19,908 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.75', 'DolulukOrani': '0,39'}
+2024-07-31 17:37:19,908 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,39'"}
+2024-07-31 22:13:17,512 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.5')])
+2024-07-31 22:13:17,528 Prediction response: {'success': True, 'prediction': '0.49'}
+2024-07-31 22:14:04,997 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.5', 'DolulukOrani': '0,38'}
+2024-07-31 22:14:04,997 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,38'"}
+2024-08-01 14:59:13,172 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.35')])
+2024-08-01 14:59:13,375 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-08-01 15:01:05,146 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.35', 'DolulukOrani': '0,40'}
+2024-08-01 15:01:05,146 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-08-05 14:35:18,322 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-08-05 14:35:18,736 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-08-05 14:35:18,776 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '2200'), ('Boy', '1100'), ('Yükseklik', '500'), ('Katsayý', '1.5')])
+2024-08-05 14:35:18,778 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-08-06 11:05:32,145 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', ''), ('Boy', 'undefined'), ('Yükseklik', 'undefined'), ('Katsayý', '1.1')])
+2024-08-06 11:05:32,145 Error in predict endpoint: {'success': False, 'error': "could not convert string to float: ''"}
+2024-08-06 11:16:57,500 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-08-06 11:16:57,518 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-08-06 11:17:24,173 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-08-06 11:17:24,174 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-08-06 11:17:38,714 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-08-06 11:17:38,715 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-08-06 11:18:09,867 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-08-06 11:18:09,868 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-08-06 11:19:23,978 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1234'), ('Boy', '4562'), ('Yükseklik', '456'), ('Katsayý', '1.1')])
+2024-08-06 11:19:23,979 Prediction response: {'success': True, 'prediction': '0.37'}
+2024-08-06 11:21:32,074 Received feedback request data: {'KalýpAdý': 0, 'En': '1234', 'Boy': '4562', 'Yükseklik': '456', 'Katsayý': '1.1', 'DolulukOrani': '0.42'}
+2024-08-06 11:21:32,381 Model Güncellendi
+2024-08-06 11:21:32,383 Feedback response: {'success': True, 'updated_prediction': 0.4157206148153608}
+2024-08-06 11:30:54,246 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-08-06 11:30:54,249 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-08-06 11:30:54,283 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '500'), ('Katsayý', '1.5')])
+2024-08-06 11:30:54,285 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-08-06 15:25:04,100 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-08-06 15:25:04,462 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-08-06 15:25:04,490 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '100'), ('Yükseklik', '600'), ('Katsayý', '1.35')])
+2024-08-06 15:25:04,492 Prediction response: {'success': True, 'prediction': '0.42'}
+2024-08-06 15:27:27,629 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-08-06 15:27:27,631 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-08-06 15:27:27,648 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.35')])
+2024-08-06 15:27:27,650 Prediction response: {'success': True, 'prediction': '0.42'}
+2024-08-06 15:27:53,406 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '1.75')])
+2024-08-06 15:27:53,407 Prediction response: {'success': True, 'prediction': '0.48'}
+2024-08-06 15:27:53,421 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.35')])
+2024-08-06 15:27:53,423 Prediction response: {'success': True, 'prediction': '0.42'}
+2024-08-06 15:29:11,931 Received feedback request data: {'KalýpAdý': 0, 'En': '1200', 'Boy': '1000', 'Yükseklik': '600', 'Katsayý': '1.35', 'DolulukOrani': '0,42'}
+2024-08-06 15:29:11,931 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,42'"}
+2024-08-06 15:29:14,336 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '1.75', 'DolulukOrani': '0,50'}
+2024-08-06 15:29:14,336 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-08-08 11:41:40,890 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-08-08 11:41:41,281 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-08-08 11:41:41,312 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '500'), ('Yükseklik', '300'), ('Katsayý', '1.5')])
+2024-08-08 11:41:41,328 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-08-08 11:41:51,656 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '3200'), ('Boy', '1100'), ('Yükseklik', '750'), ('Katsayý', '2')])
+2024-08-08 11:41:51,656 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-08-08 11:41:51,672 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '1200'), ('Boy', '500'), ('Yükseklik', '300'), ('Katsayý', '1.5')])
+2024-08-08 11:41:51,672 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-08-08 11:43:08,188 Received feedback request data: {'KalýpAdý': 0, 'En': '3200', 'Boy': '1100', 'Yükseklik': '750', 'Katsayý': '2', 'DolulukOrani': '0,50'}
+2024-08-08 11:43:08,188 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-08-08 11:43:08,469 Received feedback request data: {'KalýpAdý': 0, 'En': '1200', 'Boy': '500', 'Yükseklik': '300', 'Katsayý': '1.5', 'DolulukOrani': '0,50'}
+2024-08-08 11:43:08,469 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,50'"}
+2024-10-01 10:32:39,645 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '2000'), ('Boy', '1000'), ('Yükseklik', '600'), ('Katsayý', '1.5')])
+2024-10-01 10:32:40,051 Prediction response: {'success': True, 'prediction': '0.46'}
+2024-10-18 15:45:30,592 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '2300'), ('Boy', '750'), ('Yükseklik', '500'), ('Katsayý', '1.35')])
+2024-10-18 15:45:30,795 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-10-18 16:23:46,624 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '400'), ('Boy', '1100'), ('Yükseklik', '500'), ('Katsayý', '1.35')])
+2024-10-18 16:23:46,639 Prediction response: {'success': True, 'prediction': '0.43'}
+2024-11-06 09:56:05,769 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1600'), ('Boy', '2560'), ('Yükseklik', '800'), ('Katsayý', '1.35')])
+2024-11-06 09:56:06,160 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-11-06 09:56:07,675 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1600'), ('Boy', '2560'), ('Yükseklik', '800'), ('Katsayý', '1.35')])
+2024-11-06 09:56:07,675 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-11-06 09:56:49,379 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1600'), ('Boy', '2560'), ('Yükseklik', '800'), ('Katsayý', '1.35')])
+2024-11-06 09:56:49,394 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-11-06 09:57:05,019 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1600'), ('Boy', '2560'), ('Yükseklik', '800'), ('Katsayý', '1.35')])
+2024-11-06 09:57:05,035 Prediction response: {'success': True, 'prediction': '0.45'}
+2024-11-06 09:57:40,817 Received feedback request data: {'KalýpAdý': 0, 'En': '1600', 'Boy': '2560', 'Yükseklik': '800', 'Katsayý': '1.35', 'DolulukOrani': '0,35'}
+2024-11-06 09:57:40,817 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,35'"}
+2024-11-18 15:46:32,578 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '900'), ('Boy', '1400'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-18 15:46:32,975 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-11-18 15:50:28,216 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '900'), ('Boy', '1400'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-18 15:50:28,217 Prediction response: {'success': True, 'prediction': '0.50'}
+2024-11-18 15:51:18,308 Received feedback request data: {'KalýpAdý': 0, 'En': '900', 'Boy': '1400', 'Yükseklik': '500', 'Katsayý': '2', 'DolulukOrani': '1'}
+2024-11-18 15:51:18,474 Model Güncellendi
+2024-11-18 15:51:18,476 Feedback response: {'success': True, 'updated_prediction': 0.9983409804330042}
+2024-11-18 15:51:32,860 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '900'), ('Boy', '1400'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-18 15:51:32,862 Prediction response: {'success': True, 'prediction': '0.95'}
+2024-11-18 15:51:40,558 Received feedback request data: {'KalýpAdý': 0, 'En': '900', 'Boy': '1400', 'Yükseklik': '500', 'Katsayý': '2', 'DolulukOrani': '0.6'}
+2024-11-18 15:51:40,757 Model Güncellendi
+2024-11-18 15:51:40,759 Feedback response: {'success': True, 'updated_prediction': 0.5985464333307804}
+2024-11-22 15:52:23,198 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '800'), ('Boy', '1250'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-22 15:52:23,365 Prediction response: {'success': True, 'prediction': '0.58'}
+2024-11-22 15:52:41,399 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '800'), ('Boy', '1250'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-22 15:52:41,428 Prediction response: {'success': True, 'prediction': '0.58'}
+2024-11-22 15:53:39,884 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '800'), ('Boy', '1250'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-22 15:53:39,887 Prediction response: {'success': True, 'prediction': '0.58'}
+2024-11-22 15:53:40,455 Received feedback request data: {'KalýpAdý': 0, 'En': '800', 'Boy': '1250', 'Yükseklik': '500', 'Katsayý': '2', 'DolulukOrani': '0.4'}
+2024-11-22 15:53:40,682 Model Güncellendi
+2024-11-22 15:53:40,688 Feedback response: {'success': True, 'updated_prediction': 0.40110934756930566}
+2024-11-22 15:53:41,017 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '800'), ('Boy', '1250'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-22 15:53:41,019 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-11-22 15:53:42,977 Received feedback request data: {'KalýpAdý': 0, 'En': '800', 'Boy': '1250', 'Yükseklik': '500', 'Katsayý': '2', 'DolulukOrani': '0.40'}
+2024-11-22 15:53:43,152 Model Güncellendi
+2024-11-22 15:53:43,155 Feedback response: {'success': True, 'updated_prediction': 0.40110934756930566}
+2024-11-22 15:53:50,140 Received predict request data: ImmutableMultiDict([('KalýpAdý', '1'), ('En', '800'), ('Boy', '1250'), ('Yükseklik', '500'), ('Katsayý', '2')])
+2024-11-22 15:53:50,142 Prediction response: {'success': True, 'prediction': '0.40'}
+2024-11-22 15:53:59,281 Received feedback request data: {'KalýpAdý': 0, 'En': '800', 'Boy': '1250', 'Yükseklik': '500', 'Katsayý': '2', 'DolulukOrani': '0,45'}
+2024-11-22 15:53:59,281 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,45'"}
+2024-11-28 09:51:42,106 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:51:42,477 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:51:50,569 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:51:50,571 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:52:02,382 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:52:02,384 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:52:23,253 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:52:23,267 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:52:26,521 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:52:26,522 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:52:39,780 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:52:39,800 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:52:47,602 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:52:47,612 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:53:24,360 Received predict request data: ImmutableMultiDict([('KalýpAdý', '0'), ('En', '1350'), ('Boy', '3720'), ('Yükseklik', '950'), ('Katsayý', '1.35')])
+2024-11-28 09:53:24,362 Prediction response: {'success': True, 'prediction': '0.44'}
+2024-11-28 09:53:31,469 Received feedback request data: {'KalýpAdý': 0, 'En': '1350', 'Boy': '3720', 'Yükseklik': '950', 'Katsayý': '1.35', 'DolulukOrani': '0.40'}
+2024-11-28 09:53:31,846 Model Güncellendi
+2024-11-28 09:53:31,852 Feedback response: {'success': True, 'updated_prediction': 0.4108491619526084}
+2024-11-28 09:53:32,865 Received feedback request data: {'KalýpAdý': 0, 'En': '1350', 'Boy': '3720', 'Yükseklik': '950', 'Katsayý': '1.35', 'DolulukOrani': '0,40'}
+2024-11-28 09:53:32,865 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
+2024-11-28 09:54:02,172 Received feedback request data: {'KalýpAdý': 0, 'En': '1350', 'Boy': '3720', 'Yükseklik': '950', 'Katsayý': '1.35', 'DolulukOrani': '0,40'}
+2024-11-28 09:54:02,172 Error in feedback endpoint: {'success': False, 'error': "could not convert string to float: '0,40'"}
